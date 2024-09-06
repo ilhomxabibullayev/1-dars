@@ -5,76 +5,123 @@
         display: flex;
         align-items: center;
         gap: 60px;
+    }
+
+    .hero__image {
+        width: 610px;
+        height: 691px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: -60px;
+    }
+
+    .hero__title {
+        font-family: Work Sans;
+        font-size: 51px;
+        font-weight: 600;
+        line-height: 56.1px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .hero__text {
+        width: 410px;
+        height: 70px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35.2px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+    .hero__form {
+        margin-bottom: 15px;
+    }
+
+    .hero__input {
+        width: 330px;
+        height: 46px;
+        padding: 16px 20px 16px 20px;
+        gap: 12px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        background: #FFFFFF;
+        border: 1px solid #858584;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        color: #2B2B2B;
+    }
+
+    .hero__btn {
+        width: 330px;
+        height: 46px;
+        padding: 0px 50px 0px 50px;
+        gap: 12px;
+        border-radius: 20px 20px 20px 20px;
+        opacity: 0px;
+        background: #A259FF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .hero {
+        padding: 0 30px;
 
         .hero__image {
-            width: 610px;
-            height: 691px;
+            width: 397px;
+            height: 615px;
             gap: 0px;
             opacity: 0px;
-            margin-left: -60px;
         }
 
         .hero__title {
             font-family: Work Sans;
-            font-size: 51px;
+            font-size: 38px;
             font-weight: 600;
-            line-height: 56.1px;
+            line-height: 45.6px;
             text-align: left;
-            color: #FFFFFF;
-            margin-bottom: 15px;
         }
 
         .hero__text {
-            width: 410px;
-            height: 70px;
+            width: 265px;
+            height: 44px;
             gap: 0px;
             opacity: 0px;
             font-family: Work Sans;
-            font-size: 22px;
-            font-weight: 400;
-            line-height: 35.2px;
-            text-align: left;
-            color: #FFFFFF;
-            margin-bottom: 30px;
-        }
-
-        .hero__form {
-            margin-bottom: 15px;
-
-            .hero__input {
-                width: 330px;
-                height: 46px;
-                padding: 16px 20px 16px 20px;
-                gap: 12px;
-                border-radius: 20px 20px 20px 20px;
-                border: 1px 0px 0px 0px;
-                opacity: 0px;
-                background: #FFFFFF;
-                border: 1px solid #858584;
-                font-family: Work Sans;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 22.4px;
-                text-align: left;
-                color: #2B2B2B;
-            }
-        }
-
-        .hero__btn {
-            width: 330px;
-            height: 46px;
-            padding: 0px 50px 0px 50px;
-            gap: 12px;
-            border-radius: 20px 20px 20px 20px;
-            opacity: 0px;
-            background: #A259FF;
-            font-family: Work Sans;
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 400;
             line-height: 22.4px;
-            text-align: center;
-            color: #FFFFFF;
-            margin-top: 30px;
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero__container {
+        flex-direction: column;
+        text-align: center;
+
+        .hero__image {
+            width: 375px;
+            height: 232px;
+            gap: 0px;
+            opacity: 0px;
         }
     }
 }
